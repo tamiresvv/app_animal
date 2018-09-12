@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFCDE8A8"
+    android:id="@+id/layout_lista_fundo"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/layout_lista_foto"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:background="@android:drawable/star_big_on"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp">
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="30dp"
+            android:hint="nome do animal"
+            android:textColor="#000"
+            android:id="@+id/layout_lista_nome_animal"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="30dp"
+            android:hint="Idade"
+            android:id="@+id/layout_lista_idade"/>
+
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="30dp"
+            android:hint="Especie"
+            android:id="@+id/layout_lista_Especie"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

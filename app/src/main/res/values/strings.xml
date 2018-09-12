@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Cadastro_Animal</string>
+    <string name="action_settings">Configurações</string>
+
+    <string name="txtNomeAnimal">Nome:</string>
+    <string name="txtEspecie">Espécie:</string>
+    <string name="txtIdade">Idade:</string>
+    <string name="txtSelecione">Selecione...</string>
+    <string name="txtNovaEspecie">Nova Espécie</string>
+    <string name="hintNome">Digite aqui o nome do animal</string>
+    <string name="hintIdade">Digite aqui a idade do animal</string>
+    <string name="hintCategoria">Digite a espécie</string>
+    <string name="txtSalvar">Salvar</string>
+    <string name="txtCancelar">Cancelar</string>
+
+    <string name="txtAtencao">Atenção!!</string>
+    <string name="txtCamposObrigatorios">Preencha todos os campos obrigatorios, nome e espécie!</string>
+
+
+
+
+</resources>
